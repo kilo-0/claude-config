@@ -9,5 +9,15 @@
   "voice": {
     "enabled": true,
     "mode": "hold"
+  },
+  "mcpServers": {
+    "postgres": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres:YOUR_PG_PASSWORD@localhost:5432/claude"
+      ]
+    }
   }
 }

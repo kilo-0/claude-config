@@ -72,6 +72,9 @@
       "WebFetch(domain:orthoinfo.aaos.org)",
       "WebFetch(domain:health.clevelandclinic.org)",
 
+      "mcp__postgres__query",
+      "mcp__postgres__list_tables",
+      "mcp__postgres__describe_table",
       "mcp__claude_ai_Gmail__gmail_search_messages",
       "mcp__claude_ai_Gmail__gmail_read_message",
       "mcp__claude_ai_Gmail__gmail_create_draft",
