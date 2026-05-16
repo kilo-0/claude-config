@@ -1,0 +1,28 @@
+# Session history and project data — machine-specific, not portable
+projects/
+history.jsonl
+plans/
+teams/
+statsig/
+todos/
+
+# Any JSONL session files
+*.jsonl
+
+# Machine-specific runtime data
+.credentials.json
+.last-cleanup
+backups/
+cache/
+debug/
+ide/
+plugins/
+sessions/
+shell-snapshots/
+stats-cache.json
+tasks/
+telemetry/
+usage-data/
+
+# Local overrides (if any nested ones exist)
+*.local
